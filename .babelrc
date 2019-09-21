@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import"
+  ],
+  "presets": [
+    "@vue/app",
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry"
+      }
+    ]
+  ]
+}
